@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 2% 0;
+}
+
+/* color */
+
+.yellow {
+    background: rgba(255, 255, 0, 0.288);
+}
+
+.red {
+    background: rgba(255, 0, 0, 0.429);
+}
+
+.purple {
+    background: rgba(217, 5, 217, 0.484);
+}
+
+.green {
+    background: rgba(0, 255, 162, 0.511);
+}
+
+/* layout */
+.layout {
+    background: linear-gradient(to right, rgba(244, 78, 78, 0.457), rgba(27, 185, 229, 0.429));
+    width: 100%;
+    padding: 1%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-3 {
+    width: 33.33%;
+    height: 200px;
+    margin: 0 0.5%;
+    box-shadow: inset 0 0 2px #000;
+}
+
+.col-3:hover,
+.col-2:hover,
+.col:hover,
+.col-1:hover,
+.col-7:hover,
+.col-3-2:hover {
+    opacity: 0.8;
+}
+
+.col {
+    width: 100%;
+    height: 200px;
+    margin: 1.3% 0.5%;
+    box-shadow: inset 0 0 2px #000;
+}
+
+.col-2 {
+    width: 50%;
+    margin: 0 0.5%;
+    margin-bottom: 0.5%;
+    height: 200px;
+    box-shadow: inset 0 0 2px #000;
+}
+
+.col-7 {
+    width: 70%;
+    height: 200px;
+    margin: 1% 0.7%;
+    box-shadow: inset 0 0 2px #000;
+}
+
+.col-1 {
+    width: 15%;
+    margin: 1% 0.7%;
+    box-shadow: inset 0 0 2px #000;
+}
+
+.col-3-2 {
+    width: 15%;
+    margin: 1% 0.7%;
+    box-shadow: inset 0 0 2px #000;
+}
+
+.flag {
+    width: 100%;
+    padding: 2% 1%;
+    margin: auto;
+}
+
+.squre {
+    background: rgb(12, 155, 12);
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.circle {
+    background: rgb(255, 10, 10);
+    height: 230px;
+    width: 230px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.flag .red,
+.flag .white {
+    width: 100%;
+    height: 25px;
+}
+
+.squre1 {
+    position: relative;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.squre1 .red {
+    background: rgba(255, 0, 0, 0.998);
+}
+
+.squre1 .white {
+    background: #fff;
+}
+
+.star img {
+    max-width: 100%;
+}
+
+.star {
+    position: absolute;
+    width: 41%;
+}
+
+.card {
+    width: 100%;
+    margin: auto;
+    padding: 2% 0;
+    margin-top: 10%;
+}
+
+.card-item {
+    width: 30%;
+    position: absolute;
+    top: -15%;
+    left: 34%;
+    right: 34%;
+}
+
+.col-2-card .card-item img {
+    max-width: 100%;
+    border: 1px solid #000;
+    border-radius: 100%;
+    box-shadow: 0 0 10px #000;
+}
+
+.col-2-card {
+    width: 50%;
+    margin: 0 1%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #000;
+    position: relative;
+}
